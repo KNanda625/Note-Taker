@@ -6,7 +6,7 @@ const util = require("util");
 
 // Express App and PORT
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 // Express Middleware Functions
 app.use(express.urlencoded({ extended: true }));
